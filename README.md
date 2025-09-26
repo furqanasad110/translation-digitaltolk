@@ -44,9 +44,13 @@ Update `.env` for Sanctum, DB, and caching (Redis recommended).
 ```bash
 php artisan migrate 
 ```
-(Optional) `php artisan db:seed --class=\Database\Seeders\BigTranslationSeeder`
 
 Seeder creates 100K+ translations for testing performance.
+
+(Optional)
+```bash
+php artisan db:seed --class=\Database\Seeders\BigTranslationSeeder 
+```
 
 ### 5. Run Tests
 ```bash
