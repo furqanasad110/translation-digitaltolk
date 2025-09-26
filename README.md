@@ -52,7 +52,12 @@ Seeder creates 100K+ translations for testing performance.
 php artisan db:seed --class=\Database\Seeders\BigTranslationSeeder 
 ```
 
-### 5. Run Tests
+### 5. Run Application
+```bash
+php artisan serve
+```
+
+### 6. Run Tests
 ```bash
 php artisan test
 ```
